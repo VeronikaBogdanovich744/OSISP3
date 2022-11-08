@@ -16,6 +16,7 @@ int main()
         return 1;
     }
 
+
     MYPROC VirtualMemoryReplace = (MYPROC)GetProcAddress(hInstance, "VirtualMemoryReplace");
 
     int pid = GetCurrentProcessId();
